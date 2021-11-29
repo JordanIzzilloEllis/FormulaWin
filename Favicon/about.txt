@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cabin
+- Font Author: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+- Font Source: http://fonts.gstatic.com/s/cabin/v18/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7Gvxm7rE_s.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formulaResults.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+
+    <title>FormulaWin</title>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    </style>
+
+  </head>
+  <body>
+
+    <div id = 'topBar'>
+      <h1 id='heading'>FormulaWin</h1>
+    </div>
+    
+    <div id='menuBar'>
+      <ul class='menuButtons'>
+        <li><a href="#Races">Races</a></li>
+        <li><a href="#Standings">Standings</a></li>
+        <li><a href="#Drivers">Drivers</a></li>
+        <li><a href="#Constructors">Constructors</a></li>
+      </ul>
+    </div>
+
+    <label for="sort" id='sortLabel'>Sort by:</label>
+    <select name="sort" id="sort">
+      <option value="Finished" id='dropFinished'>Finished</option>
+      <option value="PlacesG" id='dropPlacesG'>Positions Gained</option>
+      <option value="PlacesL" id='dropPlacesL'>Positions Lost</option>
+      <option value="Team" id='dropTeam'>Team</option>
+    </select>
+
+    <div id='raceInfo'>
+      
+    </div>
+    
+    <div id='drivers'>
+      
+    </div>
+  
+    <script src="formulaResults.js" charset="utf-8"></script>
+    
+  </body>
+</html>
