@@ -1,7 +1,7 @@
 # FormulaWin
 A web-app designed to show race results for the most recent Formula 1 Grand Prix.
 
-The backend was created using Node.JS; to run the app, enter 'node index.js' in the terminal of a computer with node installed, then load the HTML file.
+The backend was created using Node.js; to run the app, enter 'node index.js' in the terminal of a computer with node installed, then load the HTML file.
 
 This webapp shows race results when loaded for the most recent Grand Prix, however the goal is to eventually make details of all races available to the user. I'm also aiming to add more detailed information about Drivers, their Teams (Constructors) and the seasons standings.
 
