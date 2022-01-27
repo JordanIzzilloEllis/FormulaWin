@@ -51,6 +51,11 @@ function createDriverArray(apiData) {
     let driverArray = [];
     let i;
     for (i=0; i < apiPath.Results.length; i++) {
+        
+        if ((apiPath.Results[i]['positionText'] == 'W')){
+            continue;
+        }
+        
         let Driver = new Object();
 
         Driver['position'] = apiPath.Results[i]['positionText'];
